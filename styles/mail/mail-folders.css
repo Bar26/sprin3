@@ -1,0 +1,81 @@
+.main-content {}
+
+.folder-list {
+    margin: 0;
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 0;
+    align-content: flex-start;
+    gap: 15px;
+
+
+}
+
+
+
+.folder-list>* {
+    justify-content: flex-start;
+}
+
+.folder-list .starred-img-container {
+    width: 25px;
+    height: 25px;
+    background-image: url('../../img/star-full');
+    /* background-position: center; */
+    background-position-x :-5%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    opacity: 0.16;
+
+}
+
+.folder-list .sent-img-container {
+    width: 25px;
+    height: 25px;
+    background-image: url('../../img/sent.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 20px;
+    opacity: 0.16;
+
+}
+
+.folder-list .draft-img-container {
+    width: 25px;
+    height: 25px;
+    background-image: url('../../img/draft.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 20px;
+    opacity: 0.16;
+    background-position-x :-5%;
+    background-position-y: center;
+
+}
+
+.folder-list .trash-img-container {
+    width: 25px;
+    height: 25px;
+    background-image: url('../../img/trash.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 20px;
+    opacity: 0.16;
+    background-position-x :-7%;
+    background-position-y: center;
+
+}
+
+.folder-list .inbox-img-container {
+    width: 25px;
+    height: 25px;
+    background-image: url('../../img/inbox.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 20px;
+    opacity: 0.16;
+    background-position-x :-5%;
+    background-position-y: center;
+
+}

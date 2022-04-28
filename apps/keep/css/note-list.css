@@ -1,0 +1,62 @@
+.note-list {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: calc(100vw - 4rem);
+}
+
+.note-list>* {
+    display: flex;
+    background-color: aqua;
+    border-radius: 15px;
+    text-align: center;
+    /* padding: 20px; */
+    flex-direction: column;
+
+}
+
+.note-preview {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+
+}
+
+.palette-bgc {
+    margin: 0;
+}
+
+.note-preview .note img {
+    max-height: 12rem;
+    border-radius: 15px;
+}
+
+.note-preview h1 {
+    font-size: larger;
+}
+
+.note-preview .note {
+    flex: 1;
+}
+
+.note-preview-btn {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:20px;
+
+}
+
+.note-preview-btn button {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.note-preview-btn .input-color {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.note-preview-btn>* {
+    margin: 0;
+}

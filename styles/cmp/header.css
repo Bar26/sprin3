@@ -1,0 +1,8 @@
+.main-header{
+    background-color: aliceblue;
+
+}
+
+.main-header .main-nav{
+    gap:10px;
+}
